@@ -473,6 +473,49 @@ STN helps mainly on severe geometric distortions, but may reduce performance on 
 
 \end{frame}
 
+% ----------------- WHY ------------------------------------
+
+\begin{frame}{Why CRNN + CTC + STN?}
+
+\textbf{1. Why CRNN (CNN + BiLSTM)?}
+\begin{itemize}
+    \item License plates are \textbf{sequences} of characters, not isolated symbols.
+    \item CNN extracts visual stroke patterns; LSTM models left--right sequence context.
+    \item Unlike pure CNN classifiers or Vision Transformers, CRNN scales well to 
+          variable widths and small training sets.
+\end{itemize}
+
+\textbf{2. Why CTC Loss?}
+\begin{itemize}
+    \item Removes the need for \textbf{character-level bounding boxes} 
+          (which CCPD does not provide).
+    \item Allows the network to learn alignment automatically.
+    \item Simpler than attention-based decoders and more stable on noisy plates.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Why CRNN + CTC + STN?}
+
+\textbf{3. Why STN (Spatial Transformer Network)?}
+\begin{itemize}
+    \item Many plates are skewed, tilted, blurred, or partially distorted 
+          in CCPD (blur, rotate, tilt, challenge).
+    \item STN applies a learnable geometric correction \emph{before} OCR.
+    \item Avoids hand-crafted deskewing or classical image processing.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{Why not other alternatives?}
+\begin{itemize}
+    \item \textbf{Attention decoders}: Require more data, slower inference, overkill for 6-character plates.
+    \item \textbf{Transformer OCR models}: High compute cost; unstable on small crops like $128 \times 32$.
+    \item \textbf{Traditional methods (HOG + SVM)}: Fail completely on blurred or rotated CCPD subsets.
+    \item \textbf{Segmentation-based OCR}: Needs per-character boxes; not available in CCPD.
+\end{itemize}
+
+\end{frame}
 
 
 
