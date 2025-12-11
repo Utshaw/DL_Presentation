@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.19)  11 DEC 2025 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.19)  11 DEC 2025 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1414,12 +1414,12 @@ Overfull \hbox (53.53473pt too wide) has occurred while \output is active
 [19
 
 ]
-Overfull \hbox (11.89034pt too wide) in paragraph at lines 491--491
+Overfull \hbox (11.89034pt too wide) in paragraph at lines 496--496
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
-Overfull \hbox (53.53473pt too wide) in paragraph at lines 491--491
+Overfull \hbox (53.53473pt too wide) in paragraph at lines 496--496
  [][][][]  
  []
 
@@ -1436,12 +1436,12 @@ Overfull \hbox (53.53473pt too wide) has occurred while \output is active
 [20
 
 ]
-Overfull \hbox (11.89034pt too wide) in paragraph at lines 497--497
+Overfull \hbox (11.89034pt too wide) in paragraph at lines 518--518
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
-Overfull \hbox (53.53473pt too wide) in paragraph at lines 497--497
+Overfull \hbox (53.53473pt too wide) in paragraph at lines 518--518
  [][][][]  
  []
 
@@ -1456,6 +1456,50 @@ Overfull \hbox (53.53473pt too wide) has occurred while \output is active
  []
 
 [21
+
+]
+Overfull \hbox (11.89034pt too wide) in paragraph at lines 534--534
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (53.53473pt too wide) in paragraph at lines 534--534
+ [][][][]  
+ []
+
+
+Overfull \hbox (11.89034pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (53.53473pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[22
+
+]
+Overfull \hbox (11.89034pt too wide) in paragraph at lines 540--540
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (53.53473pt too wide) in paragraph at lines 540--540
+ [][][][]  
+ []
+
+
+Overfull \hbox (11.89034pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (53.53473pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[23
 
 ]
 \tf@nav=\write6
@@ -1476,8 +1520,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25883 strings out of 474486
- 518625 string characters out of 5753566
+ 25887 strings out of 474486
+ 518663 string characters out of 5753566
  1939542 words of memory out of 5000000
  47608 multiletter control sequences out of 15000+600000
  570885 words of font info for 82 fonts, out of 8000000 for 9000
@@ -1493,9 +1537,9 @@ ype1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (21 pages, 663411 bytes).
+Output written on main.pdf (23 pages, 677000 bytes).
 PDF statistics:
- 677 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
